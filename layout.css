@@ -1,0 +1,232 @@
+
+body{
+    padding: 0px;
+    margin: 0 auto;
+    width: 1000px;
+    
+}
+.container{
+    max-width: 1000px;
+    margin: 0 auto;
+    position: relative;
+}
+.container>header{
+    height: 0px;
+    background-image: url();
+    background-size: 100% 100%;
+    padding-bottom: 25%;
+}
+.container>nav{
+    line-height: 40px;
+    background-color: orange;
+    color: white;
+    text-align: center;
+    font-variant: small-caps;
+}
+.container>nav>a{
+    text-decoration: none;
+    color: white;
+    margin: 0 10px;
+}
+.container nav a:hover{
+    color:tomato;
+}
+.container>article{
+    min-height: 200px;
+    width: 75%;
+    background-color:white;
+    float: left;}
+.container>aside{
+    background-color: khaki;
+    min-height: 200px;
+    width: 25%;
+    float: right;
+}
+.container>footer{
+    border-top: 5px double orange ;
+    line-height: 50px;
+    background-color:sandybrown;
+    text-align: center;
+    font-variant: small-caps;
+    clear: both;
+    
+}
+
+
+
+
+.topnav
+{width: 250px;
+vertical-align: middle;
+white-space: nowrap;
+position: relative;
+}
+.image{
+    width: 25%;
+    float: left;
+    margin-bottom: 20px;
+}
+  .noidung{
+      width: 70%;
+      float: right;
+      padding-left: 10px;
+      bottom: 20px;
+  }
+  .ban-tin{
+      clear: both;
+  }
+
+
+ul.vmenu{
+    padding:0 px;
+    margin:2 px;
+   list-style:none;
+    border-radius:3 px;
+   box-shadow:0 0 2 px gray;}
+   ul.vmenu a{
+    background:url('image/logo.png') no-repeat 5px center;
+    display: block;
+    border-bottom: 1 px dotted orangered(32, 32, 150);
+    color:orange;
+    font-variant: small-caps;
+    font-size: larger;
+    text-decoration: none;
+    padding: 10px 15px 8px 10px;}
+ ul.vmenu a:hover{
+    background: url('image/logo2.png') no-repeat 10px center;
+    border-bottom: 1 px dotted salmon;
+    background-color:orange (32, 32, 150);
+    color: white;
+    font-weight: bold;}
+
+
+
+
+.top-right{
+    padding: 5px 10px 5px 20px ;
+
+}
+.top-right a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-variant: small-caps;
+}
+.company-info{
+    bottom: 30px;
+    left: 15px;
+}
+
+
+
+
+
+.menu>ul>li{
+    position: relative;
+    display: inline-block;
+}
+.menu>ul>li>a{
+    display: block;
+}
+.menu>ul{
+    padding: 0px;
+    margin: 0 px;
+    list-style: none;
+    border-radius: 3px;
+    background-color: orange;
+    text-align: center;
+}
+.menu>ul>li>a{
+    text-decoration: none;
+    font-variant: small-caps;
+    font-size: larger;
+    color: white;
+    padding: 10px;
+    line-height: 40px;
+}
+.menu ul ul a{
+    display: block;
+    color: orange;
+    font-size: larger;
+    line-height: 30px;
+    font-variant: small-caps;
+    padding: 0 10px;
+}
+.menu>ul>li:hover{
+    color:orange;
+}
+.menu ul ul{
+    position: absolute;
+    display: none;
+    padding: 0 px;
+    margin: 0px;
+    list-style: none;
+    border-radius: 3px;
+    width: 200px;
+    background-color: white;
+    box-shadow: 0 0 1px gray;
+}
+.menu ul ul a{
+    display: block;
+    line-height: 30px;
+    color: orange(32, 32, 150);
+    text-decoration: none;
+    font-variant: small-caps;
+    font-size: large;
+    padding: 0 10px;
+}
+.menu>ul>li:hover>ul{
+    display: block;
+}
+.menu ul ul a:hover{
+    background-color:orange;
+    color: white;
+}
+ 
+
+
+.col-25{
+    width: 31%;
+    float: left;
+}
+.prod{
+    border-radius: 10px;
+    box-shadow: 0 0 5px gray;
+    margin:5px;
+    padding:5px;
+    text-align: center;
+}    
+.prod>.name{
+    font-variant: small-caps;
+    color:orangered;
+    font-weight: bold;
+}
+   
+.prod>.price{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 25px;
+    color: orangered;
+    bottom: 5px;
+    position: relative;
+    left: 5px;
+}
+.detail{
+    width: 100%;
+    height: inherit;
+    flood-color: orange;
+}
+
+
+.detail-content{
+    width: 50%;
+    height: fit-content;
+    float:initial;
+}
+table{
+    text-align: center;
+    background-color: rgb(249,	204, 180);
+}
+th{
+    background-color:darksalmon;
+    color: black;
+}
